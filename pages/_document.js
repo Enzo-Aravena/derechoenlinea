@@ -3,9 +3,9 @@ import Link from 'next/link'
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html>
       <Head>
-      <meta name="Descripción" content="Derechos en linea y venta de cursos" />
+      <meta name="descripción" content="Derechos en linea y venta de cursos" />
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin={'true'}/>
       <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet"/>
