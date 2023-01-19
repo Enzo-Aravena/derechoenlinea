@@ -1,8 +1,10 @@
 .header{
-    background-image: linear-gradient(to right, rgb(0 0 0 / .8),rgb(0 0 0 / .7)), url(../public/img/header.jpg);
-    padding: 10rem 0;
-    background-position: center;
+    background-image: linear-gradient(to right, rgb(0 0 0 / .8),rgb(0 0 0 / .7)), url("../public/img/header.png");
+    padding: 5rem 0;
+    background-position: bottom;
     background-size: cover;
+  
+
     
 }
 .barra {
@@ -41,6 +43,7 @@
     transition-duration: 300ms;
 }
 
-.navegacion a:hover {
+.navegacion a:hover,
+.active {
     background-color: grey;
 }

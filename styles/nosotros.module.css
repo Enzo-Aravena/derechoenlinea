@@ -1,0 +1,19 @@
+.contenido {
+    display: grid;
+    gap: 4rem;
+}
+
+@media (min-width: 768px) {
+    .contenido {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+}
+
+.nosotros {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 100;
+    color: var(--primary) !important;
+    margin: 5rem 0;
+}

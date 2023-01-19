@@ -1,5 +1,5 @@
 :root {
-  --primary: #e99401;
+  --primary: #8c8c8c;
   --black: #262626;
   --white: #FFF;
   --fuente-principal: 'Outfit', sans-serif;
@@ -7,10 +7,16 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+  margin-top:0px; 
+
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
 body {
@@ -20,13 +26,15 @@ body {
 }
 img {
   max-width: 100%;
-  height: auto;
+  height: auto ;
 }
 [class*="contenedor"], 
 main {
   
   width: min(95%, 120rem);
   margin: 3rem auto;
+  
+  
 }
 [class*="heading"] {
   font-size: 4rem;
