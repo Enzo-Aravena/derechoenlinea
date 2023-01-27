@@ -8,6 +8,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={`contenedor ${styles.contenido}`}>
       <nav className={styles.navegacion}>
+
           <Link
             href="/">
             Inicio

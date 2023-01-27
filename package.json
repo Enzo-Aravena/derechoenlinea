@@ -10,8 +10,12 @@
   },
   "dependencies": {
     "@next/font": "13.1.2",
+    "attribute": "^0.1.0",
+    "formats": "^1.0.0",
+    "medium": "^1.2.0",
     "next": "13.1.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "url": "^0.11.0"
   }
 }

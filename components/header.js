@@ -47,6 +47,14 @@ export default function Header() {
           >
             Capacitaciones
           </Link>
+          <Link
+            href="/contacto"
+            className={
+              router.pathname === "/contacto" ? styles.active : ""
+            }
+          >
+            Contacto  
+          </Link>
         </nav>
       </div>
     </header>
